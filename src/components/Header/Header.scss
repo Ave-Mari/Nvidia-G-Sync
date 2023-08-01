@@ -1,21 +1,44 @@
 header {
-    width: 1110px;
+    display: flex;
+    width: 77.1%;
+    margin: 0 auto;
+    padding-top: 15px;
+
+    .logo-block {
+        width: 11.9%;
+    }
 }
 
 .menu {
     display: flex;
+    align-items: center;
+    width: 91%;
 }
 
 nav {
+    width: 44%;
     ul {
         display: flex;
+        justify-content: space-between;
+        width: 100%;
         padding-left: 0;
 
         li {
             a {
                 color: #fff;
                 text-decoration: none;
+
+                &:hover {
+                    color: #77B900;
+                }
             }
         }
     }
 }
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 9.8%;
+   }
+   

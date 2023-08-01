@@ -40,5 +40,13 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 9.8%;
+
+    a {
+        svg {
+            &:hover path {
+                fill: #77B900;
+            }
+        }
+    }
    }
    

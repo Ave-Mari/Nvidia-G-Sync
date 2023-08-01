@@ -1,15 +1,23 @@
-import React from 'react'
+import React from 'react';
+//img
+import logo from './logo.svg';
 
 export default function Header() {
   return (
     <header>
         <div className="menu">
-            <img></img>
+            <img src={logo} alt='nvidia logo'></img>
             <nav>
                 <ul>
-                    <li>ПРОДУКТЫ</li>
-                    <li>ТЕХНОЛОГИИ</li>
-                    <li>EXPERIENCE</li>
+                    <li>
+                        <a href="#">ПРОДУКТЫ</a>
+                    </li>
+                    <li>
+                        <a href="#">ТЕХНОЛОГИИ</a>
+                    </li>
+                    <li>
+                        <a href="#">EXPERIENCE</a>
+                    </li>
                 </ul>
             </nav>
 

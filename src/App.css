@@ -1,3 +1,4 @@
 main {
-  
+  background: no-repeat url("./components/bg.png");
+  background-size: cover;
 }

@@ -34,7 +34,7 @@ export default function Technologies() {
             {technologiesData.map((item) => {
                 return (
                     <li>
-                        <img src={item.img} alt={item.headline} />
+                        <img src={item.img} alt={item.headlineBold + item.headline} />
                         <h2>
                             <b>{item.headlineBold}</b>
                             {item.headline}

@@ -1,0 +1,21 @@
+header {
+    width: 1110px;
+}
+
+.menu {
+    display: flex;
+}
+
+nav {
+    ul {
+        display: flex;
+        padding-left: 0;
+
+        li {
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,5 +1,8 @@
+//fonts
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;700&display=swap');
+//components
+@import './components/Header/Header.scss';
 
 h1, h2, h3 {
     font-family: 'Play', sans-serif;    
@@ -8,11 +11,10 @@ h1, h2, h3 {
 p, span, a {
     font-family: 'Roboto', sans-serif;
 }
-
 body {
     padding: 0;
     margin: 0;
+    background: #000;
 }
-
 
 

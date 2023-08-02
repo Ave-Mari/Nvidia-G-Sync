@@ -1,9 +1,12 @@
 header {
+    background: #000;
+}
+
+.container {
     display: flex;
     width: 77.1%;
     margin: 0 auto;
-    padding-top: 15px;
-    margin-bottom: 73px;
+    padding: 15px 0;
 
     .logo-block {
         width: 11.9%;

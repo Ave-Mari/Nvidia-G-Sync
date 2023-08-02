@@ -1,4 +1,6 @@
 import React from 'react';
+//styles
+import './BurgerMenu.scss'
 
 export default function BurgerMenu() {
   return (

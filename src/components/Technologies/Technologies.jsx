@@ -34,7 +34,7 @@ const technologiesData = [
     }
 ]
 
-export default function Technologies() {
+export default function Technologies({clickToShow}) {
   return (
     <section className='technologies'>
         <ul>
@@ -51,7 +51,7 @@ export default function Technologies() {
                 )
             })}
         </ul>
-        <button>КУПИТЬ</button>
+        <button onClick={clickToShow}>КУПИТЬ</button>
     </section>
   )
 }

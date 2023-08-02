@@ -35,7 +35,12 @@ function App() {
 
       <Header showMenu={showMenu}/>
 
-      {menu ? <BurgerMenu /> : null}   
+      {menu ? 
+      <div className="menu-container">
+        <BurgerMenu />
+      </div>
+      
+      : null}   
 
       <div className="background">
       <Description />

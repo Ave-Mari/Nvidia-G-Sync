@@ -43,6 +43,14 @@ export default function Header() {
 
             </a>
         </div>
+        <div className='burger'>
+            <button>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        
+        </div>
 
         </div>
       

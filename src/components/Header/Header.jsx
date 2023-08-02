@@ -1,10 +1,8 @@
 import React from 'react';
 //img
 import logo from './logo.svg';
-import twitter from './tw.svg';
-import instagram from './inst.svg';
 
-export default function Header() {
+export default function Header({showMenu}) {
   return (
     <header>
         <div className="container">
@@ -44,14 +42,13 @@ export default function Header() {
             </a>
         </div>
         <div className='burger'>
-            <button>
+            <button onClick={showMenu}>
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
         
         </div>
-
         </div>
       
 

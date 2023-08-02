@@ -83,5 +83,31 @@
                 width: 48%;
             }
         }
+        button {
+            width: 25.2%;
+        }
     }
+    
 }
+
+@media screen and (max-width: 480px)  {
+    .technologies {
+        ul {
+
+            justify-content: center;
+            margin-bottom: 50px;
+    
+            &:last-child {
+                margin-bottom: 0;
+            }
+    
+            li {
+                width: 70%;
+            }
+        }
+    }
+   
+}
+
+//tech.. button width: 38.2%;
+//max-width 480px -> li -> width: 70%;

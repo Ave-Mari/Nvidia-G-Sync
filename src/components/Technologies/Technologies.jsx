@@ -36,7 +36,7 @@ const technologiesData = [
 
 export default function Technologies() {
   return (
-    <section>
+    <section className='technologies'>
         <ul>
             {technologiesData.map((item) => {
                 return (
@@ -46,7 +46,7 @@ export default function Technologies() {
                             <b>{item.headlineBold}</b>
                             {item.headline}
                         </h2>
-                        <p>{item.description}</p>
+                        <p className='description'>{item.description}</p>
                     </li>
                 )
             })}

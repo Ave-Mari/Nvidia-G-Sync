@@ -7,6 +7,8 @@ import instagram from './inst.svg';
 export default function Header() {
   return (
     <header>
+        <div className="container">
+
         <div className="menu">
             <div className="logo-block">
             <img src={logo} alt='nvidia logo'></img>
@@ -41,6 +43,9 @@ export default function Header() {
 
             </a>
         </div>
+
+        </div>
+      
 
     </header>
   )

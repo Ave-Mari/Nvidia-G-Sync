@@ -8,15 +8,30 @@ import Popup from './components/Popup/Popup.jsx'
 
 function App() {
 
+  const [showPopup, setShowPopup] = useState(false);
+
+  const clickToShow = () => {
+    setShowPopup(true)
+  }
+
+  const clickToClose = () => {
+    setShowPopup(false)
+  }
+
   return (
     <main>
+      
+      {showPopup ? 
+        <div className="popup-container">
+          <Popup clickToClose={clickToClose}/> 
+        </div>      
+      : null}   
       <Header />
       <div className="background">
       <Description />
-      <Technologies />  
+      <Technologies clickToShow={clickToShow}/>  
       </div>
 
-      <Popup />
           
     </main>
   )

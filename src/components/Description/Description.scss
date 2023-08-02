@@ -32,3 +32,12 @@ section {
         width: 85vw;
       }
 }
+
+@media screen and (max-width: 600px) {
+    section {
+        width: 95vw;
+    }
+    .description-block {
+        width: 95.7%;
+    }
+}

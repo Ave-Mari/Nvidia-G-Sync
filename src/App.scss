@@ -1,6 +1,11 @@
 main {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.background {
     background: no-repeat url("./components/bg.png");
     background-size: cover;
-    width: 1440px;
-    margin: 0 auto;
+    padding-top: 61px;
+    
   }

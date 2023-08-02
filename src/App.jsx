@@ -10,8 +10,11 @@ function App() {
   return (
     <main>
       <Header />
+      <div className="background">
       <Description />
-      <Technologies />      
+      <Technologies />  
+      </div>
+          
     </main>
   )
 }

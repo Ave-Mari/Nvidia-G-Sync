@@ -1,5 +1,5 @@
 main {
-  width: 1440px;
+  width: 93.7vw;
   margin: 0 auto;
   position: relative;
 }
@@ -8,6 +8,20 @@ main {
     background: no-repeat url("./components/bg.png");
     background-size: cover;
     padding-top: 61px;
-    margin-bottom: 0px;
-    
-  }
+    margin-bottom: 0px;  
+  
+}
+
+.popup-container {
+  width: 93.7vw;
+  //height: 100%;
+  z-index: 100;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+}

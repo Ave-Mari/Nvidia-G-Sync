@@ -56,7 +56,11 @@ nav {
             }
         }
     }
-   }
+} 
+
+.burder {
+    display: none;
+}
 
 @media screen and (max-width: 1200px) {
     .container {
@@ -89,4 +93,54 @@ nav {
         width: 73.8%;
     }
     }
+
+    @media screen and (max-width: 600px) {
+        .container {
+            justify-content: space-between;
+        }
+        nav {
+            display: none;
+        }
+        .social {
+            display: none;
+        }
+
+        .burger {
+            display: block;
+            padding: 18px;
+            border: none;            
+
+            &:hover {
+                background: #77B900;
+                cursor: pointer;
+            }
+
+            button {
+                background: none;
+                border: none;
+                padding: 0;
+            }
+
+            span {
+                display: block;
+                height: 2px;
+                width: 26px;
+                background: #fff;
+                border-radius: 22%;
+
+                margin-bottom: 4px; 
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+            }
+
+            // height: 2px;
+            // width: 56px;
+            // background: #fff;
+
+        }
+    }
+
+
+
    

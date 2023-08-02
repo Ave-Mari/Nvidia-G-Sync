@@ -1,9 +1,18 @@
 section {
     color: #fff;
+    margin: 0 auto;
+    width: 77.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .description-block {
     margin: 0 auto;
+    width: 65.7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h1 {
         font-size: 26px;

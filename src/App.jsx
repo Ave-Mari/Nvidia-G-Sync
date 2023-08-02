@@ -4,6 +4,7 @@ import './App.scss'
 import Header from './components/Header/Header.jsx'
 import Description from './components/Description/Description.jsx'
 import Technologies from './components/Technologies/Technologies.jsx'
+import Popup from './components/Popup/Popup.jsx'
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
       <Description />
       <Technologies />  
       </div>
+
+      <Popup />
           
     </main>
   )

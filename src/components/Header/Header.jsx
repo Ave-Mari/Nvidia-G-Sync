@@ -41,14 +41,14 @@ export default function Header({showMenu}) {
 
             </a>
         </div>
-        <div className='burger'>
-            <button onClick={showMenu}>
+   
+            <button className='burger' onClick={showMenu}>
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
         
-        </div>
+  
         </div>
       
 

@@ -22,14 +22,19 @@ function App() {
 
   const showMenu = () => {
     setMenu(!menu);
+    if (menu) {
+      document.body.style.overflow = 'visible';
+    } else {
+      document.body.style.overflow = 'hidden';
+    }
   }
 
   return (
-    <main>
-      
+    <main>        
+ 
       {showPopup ? 
         <div className="popup-container">
-          <Popup clickToClose={clickToClose}/> 
+          <Popup clickToClose={clickToClose}/>         
         </div>      
       : null}   
 

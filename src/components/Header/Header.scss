@@ -58,6 +58,7 @@ nav {
 
 .burger {
     display: none;
+    background: none;
 }
 
 // .burger-menu-block {
@@ -109,6 +110,9 @@ nav {
 
         .burger {
             display: block;
+            position: fixed;
+            top: 0;
+            right: 0;
             padding: 18px;
             border: none;            
 

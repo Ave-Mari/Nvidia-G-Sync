@@ -44,7 +44,7 @@
     h1 {
         font-size: 26px;
         color: #fff;
-
+        text-align: center;
         margin-top: 0px;
         margin-bottom: 20px;
     }
@@ -103,8 +103,24 @@
        
 
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 480px) {
     .popup {
         width: 94%;
+        form {
+            width: 70%;
+        }
+
+        .close {
+            left: 89%;
+        }
     }
+}
+
+@media screen and (max-width: 320px) {
+    .popup {
+        .close {
+            left: 88%;
+        }
+    }
+    
 }

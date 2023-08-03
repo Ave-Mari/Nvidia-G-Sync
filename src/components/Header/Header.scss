@@ -61,10 +61,6 @@ nav {
     background: none;
 }
 
-// .burger-menu-block {
-//     display: none;
-// }
-
 @media screen and (max-width: 1200px) {
     .container {
         width: 89vw;
@@ -110,10 +106,10 @@ nav {
 
         .burger {
             display: block;
-            position: fixed;
+            position: absolute;
             top: 0;
             right: 0;
-            padding: 18px;
+            padding: 28px 26px;
             border: none;            
 
             &:hover {
@@ -140,11 +136,6 @@ nav {
                         margin-bottom: 0;
                     }
             }
-
-            // height: 2px;
-            // width: 56px;
-            // background: #fff;
-
         }
 
         

@@ -89,7 +89,16 @@
     }
     
 }
-
+@media screen and (max-width: 600px) {
+    .technologies {
+        ul {
+            li {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+}
 @media screen and (max-width: 480px)  {
     .technologies {
         ul {

@@ -11,4 +11,6 @@ Mobile view (380px):
 
 ![3](https://github.com/Ave-Mari/Nvidia-G-Sync/assets/66331611/8a7790c9-4049-4e9d-92f6-c8bd035be147)
 ![4](https://github.com/Ave-Mari/Nvidia-G-Sync/assets/66331611/c3cfc424-de50-42dc-a537-15586a546df6)
+![5](https://github.com/Ave-Mari/Nvidia-G-Sync/assets/66331611/f81c63a0-0fc5-41d0-a23a-da19e203a172)
+
 

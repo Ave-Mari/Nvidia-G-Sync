@@ -2,7 +2,7 @@ import React from 'react';
 //img
 import logo from './logo.svg';
 
-export default function Header({showMenu}) {
+export default function Header({showMenu, menu}) {
   return (
     <header>
         <div className="container">
@@ -42,7 +42,7 @@ export default function Header({showMenu}) {
             </a>
         </div>
    
-            <button className='burger' onClick={showMenu}>
+            <button className='burger' onClick={showMenu} style={menu ?  {background: '#77B900'} : {background: 'none'}}>
                 <span></span>
                 <span></span>
                 <span></span>

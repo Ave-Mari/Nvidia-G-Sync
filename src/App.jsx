@@ -38,7 +38,7 @@ function App() {
         </div>      
       : null}   
 
-      <Header showMenu={showMenu}/>
+      <Header showMenu={showMenu} menu={menu}/>
 
       {menu ? 
       <div className="menu-container">

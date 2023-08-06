@@ -7,7 +7,7 @@ main {
 .background {
     background: no-repeat url("./components/bg.png");
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     padding-top: 61px;
     padding-bottom: 173px;
     margin-bottom: 0px;  
@@ -46,5 +46,8 @@ main {
   }
   .popup-container {
     width: 100%;
+  }
+  .background {
+    height: 100%;
   }
 }
